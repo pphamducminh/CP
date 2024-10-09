@@ -1,5 +1,3 @@
-
-
 #include <bits/stdc++.h>
 #include <iostream>
 #include <cmath>
@@ -15,6 +13,10 @@
 #include <iomanip>
 #include <deque>
 
+// #pragma GCC optimize("O3,unroll-loops")
+// #pragma GCC target("avx2,bmi,bmi2,popcnt,lzcnt")
+// #pragma GCC optimize("Ofast","inline","no-stack-protector")
+
 using namespace std;
 
 #define  file(name)  freopen(name".inp", "r", stdin);\
@@ -22,7 +24,6 @@ using namespace std;
 #define ordered_set tree<ll, null_type,less_equal<ll>, rb_tree_tag,tree_order_statistics_node_update>
 #define TIME        (1.0 * clock() / CLOCKS_PER_SEC)
 #define all(a)      a.begin(),a.end()
-#define endl        "\n"
 #define all1(a)     a+1,a+n+1
 // #define push_back   emplace_back
 // #define gcd(a,b)    __gcd(a,b);
