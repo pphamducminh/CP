@@ -1,6 +1,5 @@
 @echo off
 
-
-g++ -O2 -DLOCAL -o testtt testtt.cpp
-g++ -O2 -DLOCAL -o testtt_trau testtt_trau.cpp
-g++ -O2 -DLOCAL -o gen gen.cpp
+g++ sol.cpp -o sol
+g++ sol_brute.cpp -o sol_brute
+g++ gen.cpp -o gen
